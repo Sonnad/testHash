@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
  * Created by Sonad on 03.10.17.
  */
 
-public class blackBox {
+public class BlackBox {
 
     @Test
     public void addAndGet() {

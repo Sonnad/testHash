@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 /**
  * Created by Sonad on 13.10.17.
  */
-public class whiteBox {
+public class WhiteBox {
 
     @Test
     public void addEmptyKey() {
