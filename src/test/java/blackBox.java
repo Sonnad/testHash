@@ -51,20 +51,6 @@ public class blackBox {
         }
     }
 
-//    @Test
-//    public void stressAdd() {
-//
-//        Hash hashTable = new Hash();
-//
-//        for (int i = 0; i < 450; i++) {
-//            hashTable.add("Element №" + i, "value = " + i);
-//        }
-//
-//        for (int i = 0; i < 450; i++) {
-//            assertNotNull("Один из элементов не был добавлен", hashTable.get("Element №" + i));
-//        }
-
-   // }
 
     @Test
     public void addEmptyKey() {
