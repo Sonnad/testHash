@@ -45,25 +45,6 @@ public class FrameTest {
         window.button("buttonAdd").click();
         window.button("buttonSearch").click();
         window.textBox("result").requireText("1)44\n");
-        window.textBox("valueTextField").enterText("TEST");
-        window.button("buttonAdd").click();
-        window.textBox("valueTextField").enterText("00000");
-        window.button("buttonAdd").click();
-        window.textBox("keyTextField").enterText("20");
-        window.textBox("valueTextField").enterText("44");
-        window.button("buttonAdd").click();
-        window.textBox("valueTextField").enterText("24");
-        window.button("buttonAdd").click();
-        window.button("buttonSearch").click();
-        window.textBox("result").requireText("1)44\n2)24\n");
-        window.textBox("valueTextField").enterText("0");
-        window.button("buttonAdd").click();
-        window.textBox("keyTextField").enterText("2");
-        window.button("buttonSearch").click();
-        window.textBox("result").requireText("1)44\n2)TEST\n3)00000\n");
-        window.textBox("keyTextField").enterText("20");
-        window.button("buttonSearch").click();
-        window.textBox("result").requireText("1)44\n2)24\n3)0\n");
 
     }
 
